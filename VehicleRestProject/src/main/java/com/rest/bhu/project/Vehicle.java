@@ -1,13 +1,10 @@
 package com.rest.bhu.project;
 
-
-
 import javax.persistence.Id;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Entity;
 
 @Entity
-
 public class Vehicle {
     @Id
     @GeneratedValue
